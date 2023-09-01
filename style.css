@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  position: relative;
+}
+.heading h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 3rem;
+  color: #fff;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 4rem;
+  position: relative;
+}
+
+.input-search input {
+  width: 20rem;
+  height: 3rem;
+  outline: 0px;
+  font-size: large;
+  font-style: normal;
+  text-align: center;
+}
+
+.input-search #displayBtn {
+  width: 4rem;
+  height: 3rem;
+  background: blue;
+  color: #fff;
+  outline: none;
+  border: 0px;
+}
+
+.parent-child .selcted h2{
+    display: flex;
+    justify-content: center;
+    top: -1%;
+}
+
+.parent-child{
+    background: #fff;
+    margin: 2rem;
+    height: auto;
+    position: relative;
+    top: -2rem;
+    padding: 2rem;
+    visibility: hidden;
+}
+
+.append-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 3rem;
+    margin: 1rem;
+    visibility: hidden;
+}
+
+.append-child .lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    color: #fff;
+    width: 15rem;
+    height: 2rem;
+}
+.delete{
+    width: 4rem;
+    height: 2rem;
+    outline: 0px;
+    border: 0px;
+    color: #fff;
+    background: red;
+}
